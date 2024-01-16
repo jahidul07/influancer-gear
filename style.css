@@ -1,0 +1,138 @@
+
+
+body{
+	background-color: bisque;
+	border-radius: 10px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 150px;
+	/* padding: 10px; */
+}
+.first-desc a{
+text-decoration: none;
+}
+.first-desc{
+	display: flex;
+	align-items: center;
+	color: green;
+	gap: 10px;
+}
+.second-desc a{
+text-decoration: none ;
+}
+.second-desc{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: green;
+}
+
+/* camera start */
+.second-container{
+	display: flex;
+	justify-content: space-between;
+	margin: 80px 150px;
+	background-image: url(images/Circle\ design.svg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	/* padding: 10px; */
+}
+.sub-title{
+margin-top: 50px;
+}
+.sub-title h1{
+	font-size: 3rem;
+	color: green;
+}
+.main-camera{
+	/* border: 1px solid white;
+	border-radius: 50%; */
+}
+.btn{
+	background-color: orange;
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+/* logo start */
+
+.logo-dc{
+	display: flex;
+	margin: 40px 200px;
+	align-items: center;
+}
+.logo-name{
+	margin-left: 30px;
+}
+/* card start now */
+#section-title{
+	text-align: center;
+	color: purple;
+	font-weight: bold;
+	font-size: 3rem;
+	margin-top: 50px;
+}
+.star{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.star p{
+	/* margin-left: 10px; */
+}
+.orange{
+	color: orange;
+	/* margin-left: 10px; */
+}
+
+.card-container{
+	display: grid;
+	grid-template-columns: repeat(3, 3fr);
+	margin: 30px 200px;
+	gap: 20px;
+	align-items: center;
+}
+.card{
+     border: none;
+	 background-color: green;
+	 border-radius: 10px;
+	 padding: 10px;
+}
+/* main last part */
+.container-main-last-part{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px;
+    gap: 200px;
+}
+.sub-last-desc h1{
+color: green;
+font-size: 2.5rem;
+
+}
+.btn-two{
+	border: none;
+	background-color: tomato;
+	padding: 10px;
+	width: 100px;
+}
+.footer-container{
+	background-color: black;
+	text-align: center;
+	padding: 20px 0;
+}
+.footer-container h1{
+	color: white;
+}
+.footer-container p{
+	color: white;
+}
+.footer-container a{
+	color: yellow;
+	margin-left: 10px;
+}
